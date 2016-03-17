@@ -15,6 +15,7 @@
 		D503481E1C9AA31900461D88 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D503481C1C9AA31900461D88 /* LaunchScreen.storyboard */; };
 		D50348291C9AA31900461D88 /* _0160317003_Modal_NavigationControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D50348281C9AA31900461D88 /* _0160317003_Modal_NavigationControllerTests.m */; };
 		D50348341C9AA31900461D88 /* _0160317003_Modal_NavigationControllerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D50348331C9AA31900461D88 /* _0160317003_Modal_NavigationControllerUITests.m */; };
+		D50348431C9AA3BA00461D88 /* TwoTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D50348421C9AA3BA00461D88 /* TwoTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		D503482F1C9AA31900461D88 /* 20160317003-Modal-NavigationControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "20160317003-Modal-NavigationControllerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D50348331C9AA31900461D88 /* _0160317003_Modal_NavigationControllerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _0160317003_Modal_NavigationControllerUITests.m; sourceTree = "<group>"; };
 		D50348351C9AA31900461D88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D50348411C9AA3BA00461D88 /* TwoTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwoTableViewController.h; sourceTree = "<group>"; };
+		D50348421C9AA3BA00461D88 /* TwoTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwoTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				D50348121C9AA31900461D88 /* AppDelegate.m */,
 				D50348141C9AA31900461D88 /* ViewController.h */,
 				D50348151C9AA31900461D88 /* ViewController.m */,
+				D50348411C9AA3BA00461D88 /* TwoTableViewController.h */,
+				D50348421C9AA3BA00461D88 /* TwoTableViewController.m */,
 				D50348171C9AA31900461D88 /* Main.storyboard */,
 				D503481A1C9AA31900461D88 /* Assets.xcassets */,
 				D503481C1C9AA31900461D88 /* LaunchScreen.storyboard */,
@@ -270,6 +275,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D50348431C9AA3BA00461D88 /* TwoTableViewController.m in Sources */,
 				D50348161C9AA31900461D88 /* ViewController.m in Sources */,
 				D50348131C9AA31900461D88 /* AppDelegate.m in Sources */,
 				D50348101C9AA31900461D88 /* main.m in Sources */,
